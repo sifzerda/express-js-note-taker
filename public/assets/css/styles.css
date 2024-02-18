@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*=======================*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.save-note {
+  display: none;
+}
+
+.icons i {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.note-textarea, .note-title {
+  color: #000000;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.note-textarea {
+  resize: none;
+  height: calc(100% - 63px);
+  padding-top: 15px;
+  background-color:  #212529;
+  color: white;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:  #212529;
+}
+
+.note-title {
+  height: 50px;
+  margin-top: 13px;
+  font-size: 3rem;
+}
+
+.note-title:read-only, .note-textarea:read-only {
+  color: #757575;
+}
+
+.list-container .card {
+  height: calc(100vh - 70px);
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.list-container {
+  padding-left: 0;
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+  border-top: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  background-color:  #212529;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.note-title {
+  height: 50px;
+  margin-top: 13px;
+  font-size: 3rem;
+  background-color:  #212529;
+  color:  #c8ff00;
+}
+
+.list-container .list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  cursor: pointer;
+  background-color:  #212529;
+  color: #c8ff00!important;
+  font-family: monospace, "Lucida Console", "Courier New";
+}
+
+/*=======================*/
+/*   Selectors I added   */
+/*=======================*/
+
+a {
+  color: #c8ff00!important;
+  font-family: "Bebas Neue", "Lucida Console", "Courier New", monospace;
+}
+
+.text-light {
+  color: #c8ff00!important;
+  font-family: "Bebas Neue", "Lucida Console", "Courier New", monospace;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 50px;
+  line-height: inherit;
+  white-space: nowrap;
+  border-style: dashed;
+}
+
+.col-8 {
+  background-color:  #212529;
+  border-style: dashed;
+  border-color: #3d57ff;
+}
+
+.col-4 {
+  border-style: dashed;
+  border-color: #3d57ff;
+}
+
+.bg-info {
+  background-color: #3d57ff!important;
+}
+
+.text-danger {
+  color:  #dc3545!important;
+}
+
+.btn-outline-light:hover {
+  color:  #212529;
+  background-color: #c8ff00;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color:  #dc3545;
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
+  color:  #dc3545;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
