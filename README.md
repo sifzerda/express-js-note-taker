@@ -12,7 +12,6 @@
 8. Contributing 
 9. Authors and acknowledgment
 10. License
-11. Project status
 
 ## 1. Description
 
