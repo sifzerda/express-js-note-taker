@@ -42,7 +42,7 @@ Installation through the node.js module is done using the npm install command:
 
 ## 5. Usage
 
-You can use this app through a web browser or via deployed site on Heroku at: [[link](https://calm-river-19658-7fe5e1ef2054.herokuapp.com/)]. Enter notes into the fillable fields and save them as JSON data. They will be accessible upon page refresh. Delete notes using the provided icon. 
+You can use this app through a web browser or via deployed site on Heroku at: [[Deployed Heroku App](https://calm-river-19658-7fe5e1ef2054.herokuapp.com/)]. Enter notes into the fillable fields and save them as JSON data. They will be accessible upon page refresh. Delete notes using the provided icon. 
 
 ## 6. Support
 
